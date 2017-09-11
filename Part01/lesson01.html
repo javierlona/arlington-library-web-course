@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Simple webpage created using HTML by Javier Lona">
-    <meta name="author" content="Javier Lona">
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Simple webpage created using HTML by Javier Lona"/>
+    <meta name="author" content="Javier Lona"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    
+
     <title>Hello World! Facts about the planet Earth</title>
   </head>
   <body>
@@ -63,7 +63,7 @@
       </tr>
       </thead>
       <tbody>
-        
+
       <tr>
         <td>Venus</td>
         <td>12,104 km</td>
@@ -80,16 +80,42 @@
     </table>
     
     <hr>
-    <h3>Want to Know More?</h3>
-    <form action="http://www.javierlona.com/subscribe.php" method="post">
-      <p>Please enter your email address:</p>
-      <input type="email" name="users_email" size="35" />
-      <input type="submit" value="Subscribe"/>
+    <h3>Contact Information</h3>
+    <form action="https://supersuccess.win/subscribe.php" method="post">
+      <fieldset>
+        <legend>Your Details:</legend>
+        <label>Name: <input type="text" name="name" size="35" maxlength="100"></label><br />
+        <label>Email: <input type="email" name="email" size="35" maxlength="100"></label><br />
+        <p>
+          Would you visit Mars?<br />
+          <label><input type="radio" name="visit" value="yes" /> Yes</label>
+          <label><input type="radio" name="visit" value="no" /> No</label>
+          <label><input type="radio" name="visit" value="maybe" /> Maybe</label>
+        </p>
+          <label><input type="checkbox" name="subscribe" checked="checked"/> Sign me up for email updates</label><br />
+          <input type="submit" value="Subscribe" />
+      </fieldset><br />
     </form>
     
     <hr>
     <h3>Contact Me</h3>
     <a href="mailto:javierlona1@gmail.com">Email Javier</a>
-    
+
+    <hr>
+    &copy; Javier Lona
   </body>
 </html>
+
+<!-- 
+anchor links pg. 77
+tables pg. 131
+how forms work pg. 149
+get vs post and id pg. 151
+https://www.w3schools.com/tags/tag_label.asp pg. 163
+fieldset pg. 164
+copyright pg. 194
+viewport https://www.w3schools.com/css/css_rwd_viewport.asp
+utf8 https://www.w3schools.com/charsets/ref_html_utf8.asp
+meta pg.191
+
+ -->

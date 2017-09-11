@@ -1,5 +1,0 @@
-Week 1: HTML
-Week 2: CSS Recreate Ch.17 Example from HTML & CSS Book
-Week 3: Bootstrap App Website
-Week 4: JavaScript
-Week 5: Catch Up / Bonus (How to register a Domain Name and obtain Web Hosting Tutorial)
