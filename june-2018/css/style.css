@@ -91,7 +91,7 @@ header a:hover {
   color: #ffffff;
   background: #35424a
 }
-.newsletter h2 {
+.newsletter h3 {
   float: left;
 }
 .newsletter form {
@@ -153,7 +153,7 @@ footer {
 /* Media Queries */
 
 @media(max-width: 768px) {
-  header .branding, header nav, header nav li, .newsletter h2, .newsletter form, .boxes .box, article.main-col, aside.sidebar {
+  header .branding, header nav, header nav li, .newsletter h3, .newsletter form, .boxes .box, article.main-col, aside.sidebar {
     float: none;
     text-align: center;
     width: 100%;
@@ -163,6 +163,7 @@ footer {
   }
   .showcase h2 {
     margin-top: 40px;
+    font-size: 50px;
   }
   .newsletter button, .quote button {
     display: block;
