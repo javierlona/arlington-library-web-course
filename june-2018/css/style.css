@@ -5,7 +5,6 @@ body {
   background-color: #f4f4f4;
 }
 /* Global */
-
 .container {
   width: 80%;
   margin: auto;
@@ -118,30 +117,25 @@ header a:hover {
 }
 /* Video */
 .featurette {
-	/* background: url('https://source.unsplash.com/random/400x800') 50% 100% repeat fixed; */
-	/* background-size: cover; */
 	text-align: center;
   width: 50%;
   float: left;
-	/* color: white; */
 }
 /* Hours of operation */
+.operation {
+  width: 50%;
+  text-align: center;
+  float: right;
+}
 th, td {
   background-color: #dddddd;
 }
 table {
   width: 100%;
   float: inherit;
-   /* width="400"  */
-   padding: 10px;
-   border-spacing: 15px;
+  padding: 10px;
+  border-spacing: 15px;
 }
-.operation {
-  width: 50%;
-  text-align: center;
-  float: right;
-}
-
 
 /* Sidebar */
 
@@ -186,7 +180,7 @@ footer {
 /* Media Queries */
 
 @media(max-width: 768px) {
-  header .branding, header nav, header nav li, .newsletter h3, .newsletter form, .boxes .box, article.main-col, aside.sidebar, .featurette, .process {
+  header .branding, header nav, header nav li, .newsletter h3, .newsletter form, .boxes .box, article.main-col, aside.sidebar, .featurette, .operation {
     float: none;
     text-align: center;
     width: 100%;
