@@ -121,9 +121,28 @@ header a:hover {
 	/* background: url('https://source.unsplash.com/random/400x800') 50% 100% repeat fixed; */
 	/* background-size: cover; */
 	text-align: center;
+  width: 50%;
   float: left;
 	/* color: white; */
 }
+/* Hours of operation */
+th, td {
+  background-color: #dddddd;
+}
+table {
+  width: 100%;
+  float: inherit;
+   /* width="400"  */
+   padding: 10px;
+   border-spacing: 15px;
+}
+.operation {
+  width: 50%;
+  text-align: center;
+  float: right;
+}
+
+
 /* Sidebar */
 
 aside.sidebar {
@@ -167,7 +186,7 @@ footer {
 /* Media Queries */
 
 @media(max-width: 768px) {
-  header .branding, header nav, header nav li, .newsletter h3, .newsletter form, .boxes .box, article.main-col, aside.sidebar {
+  header .branding, header nav, header nav li, .newsletter h3, .newsletter form, .boxes .box, article.main-col, aside.sidebar, .featurette, .process {
     float: none;
     text-align: center;
     width: 100%;
