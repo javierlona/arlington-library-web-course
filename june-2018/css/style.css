@@ -121,11 +121,18 @@ header a:hover {
   width: 50%;
   float: left;
 }
+.featurette iframe {
+  height: 315px;
+  width: 100%;
+}
 /* Hours of operation */
 .operation {
   width: 50%;
   text-align: center;
   float: right;
+}
+th {
+  width: 150px;
 }
 th, td {
   background-color: #dddddd;
