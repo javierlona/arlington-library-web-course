@@ -139,7 +139,6 @@ th, td {
 }
 table {
   width: 100%;
-  float: inherit;
   padding: 10px;
   border-spacing: 15px;
 }
