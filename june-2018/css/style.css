@@ -116,6 +116,14 @@ header a:hover {
 .boxes .box img {
   width: 90px;
 }
+/* Video */
+.featurette {
+	/* background: url('https://source.unsplash.com/random/400x800') 50% 100% repeat fixed; */
+	/* background-size: cover; */
+	text-align: center;
+  float: left;
+	/* color: white; */
+}
 /* Sidebar */
 
 aside.sidebar {
