@@ -115,9 +115,12 @@ header a:hover {
 .boxes .box img {
   width: 90px;
 }
+/* Second row of Homepage */
+.second-row {
+  text-align: center;
+}
 /* Video */
 .featurette {
-	text-align: center;
   width: 50%;
   float: left;
 }
@@ -128,14 +131,11 @@ header a:hover {
 /* Hours of operation */
 .operation {
   width: 50%;
-  text-align: center;
   float: right;
-}
-th {
-  width: 150px;
 }
 th, td {
   background-color: #dddddd;
+  width: 150px;
 }
 table {
   width: 100%;
