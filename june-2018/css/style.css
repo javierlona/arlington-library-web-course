@@ -149,6 +149,13 @@ footer {
   background-color: #e8491d;
   text-align: center;
 }
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
 /* Media Queries */
 
 @media(max-width: 768px) {
