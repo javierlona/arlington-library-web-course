@@ -7,6 +7,7 @@ body {
   background-color: #f4f4f4;
 }
 /* Global */
+
 .content-wrap {
   width: 80%;
   margin: auto;
@@ -32,6 +33,7 @@ ul {
   margin-bottom: 10px;
 }
 /* Header **/
+
 header {
   background: #35424a;
   color: #ffffff;
@@ -39,7 +41,7 @@ header {
   min-height: 70px;
   border-bottom: #e8491d 3px solid;
 }
-header .highlight, header .current a {
+header .highlight, .current a {
   color: #e8491d;
   font-weight: bold;
 }
@@ -64,7 +66,6 @@ nav li {
   display: inline;
   padding: 0 20px 0 20px;
 }
-
 /* Showcase */
 
 .showcase {
@@ -115,10 +116,13 @@ nav li {
   width: 90px;
 }
 /* Second row of Homepage */
+
 .front-page-more-info {
   text-align: center;
+  margin-top: 20px;
 }
 /* Video */
+
 .featurette {
   width: 50%;
   float: left;
@@ -128,7 +132,8 @@ nav li {
   width: 100%;
 }
 /* Hours of operation */
-.operation {
+
+.hours-of-operation {
   width: 50%;
   float: right;
 }
@@ -141,7 +146,6 @@ table {
   padding: 10px;
   border-spacing: 15px;
 }
-
 /* Sidebar */
 
 aside.sidebar {
@@ -184,7 +188,7 @@ footer a {
 /* Media Queries */
 
 @media(max-width: 768px) {
-  .branding, nav, nav li, .newsletter h3, .newsletter form, .boxes .box, article.main-col, aside.sidebar, .featurette, .operation {
+  .branding, nav, nav li, .newsletter h3, .newsletter form, .boxes .box, article.main-col, aside.sidebar, .featurette, .hours-of-operation {
     float: none;
     text-align: center;
     width: 100%;
