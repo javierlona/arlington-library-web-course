@@ -1,155 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Example showing a cooking site built using
-    new HTML5 elements to describe the structure of the page.">
-    <meta name="author" content="Javier Lona">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>Yoko's Kitchen</title>
-		<style type="text/css">
-			body {
-				background-image: url("images/dark-wood.jpg");
-				background-position: center;
-				font-family: Georgia, Times, serif;
-				line-height: 1.4em;
-				margin: 0px;}
-			.wrapper {
-				width: 940px;
-				margin: 20px auto 20px auto;
-				border: 10px solid black;
-				background-color: white;}
-			header {
-				height: 160px;
-				background-image: url(images/header.jpg);}
-			nav, footer {
-				clear: both;
-				color: white;
-				background-color: gray;
-				height: 25px;}
-			nav ul {
-				margin: 0px;
-				padding: 5px 0px 5px 30px;}
-			nav li {
-				display: inline;
-				margin-right: 40px;}
-			nav li a {
-				color: white;}
-			nav li a:hover, nav li a.current {
-				color: black;}
-			article {
-				clear: both;
-				overflow: auto;
-				width: 100%;
-				float: left;
-				width: 659px;}
-			.article-headings {
-				margin-top: 40px;}
-			figure {
-				float: left;
-				width: 290px;
-				height: 220px;
-				padding: 5px;
-				margin: 20px;
-				border: 1px solid pink;}
-			figcaption {
-				font-size: 90%;
-				text-align: left;}
-			aside {
-				width: 230px;
-				float: left;
-				padding-left: 20px;
-				border-left: 1px dashed gray;}
-			aside section a {
-				display: block;
-				padding: 10px;
-				border-bottom: 1px solid #eeeeee;}
-			aside section a:hover {
-				color: #985d6a;
-				background-color: lightgray;}
-			a {
-				color: #de6581;
-				text-decoration: none;}
-			h1, h2, h3 {
-				font-weight: normal;}
-			h2 {
-				margin: 10px 0px 5px 0px;
-				padding: 0px;}
-			h3 {
-				margin: 0px 0px 10px 0px;
-				color: #de6581;}
-			aside h2 {
-				padding: 30px 0px 10px 0px;
-				color: #de6581;}
-			footer {
-				font-size: 80%;
-				padding: 7px 0px 0px 20px;}
-      #skiptocontent a {
-        position: absolute;
-        top:0px;
-        left:0px;
-        background:transparent;
-        color: transparent;
-      }
-      #skiptocontent a:focus {
-        position:absolute;
-        top:0px;
-        left:0px;
-        background:white;
-        color: black;
-      }
-		</style>
-		<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-	</head>
-	<body>
-		<div class="wrapper">
-			<header>
-      <div id="skiptocontent"><a href="#maincontent">Skip to main content</a></div>
-				<nav>
-					<ul>
-						<li><a href="" class="current">home</a></li>
-						<li><a href="">classes</a></li>
-						<li><a href="">catering</a></li>
-						<li><a href="">about</a></li>
-						<li><a href="">contact</a></li>
-					</ul>
-				</nav>
-			</header>
-      <article id="maincontent">
-				<figure>
-					<img src="images/teriyaki.jpg" alt="Teriyaki sauce" />
-					<figcaption>Teriyaki Sauce</figcaption>
-				</figure>
-				<div class="article-headings">
-					<h2>Sauces Masterclass</h2>
-					<h3>One day workshop</h3>
-				</div>
-				<p>An intensive one-day course looking at how to create the 
-				most delicious sauces for use in a range of Japanese cookery.</p>
-			</article>
-			<aside>
-				<section class="popular-recipes">
-					<h2>Popular Recipes</h2>
-					<a href="">Yakitori (grilled chicken)</a>
-					<a href="">Tsukune (minced chicken patties)</a>
-					<a href="">Okonomiyaki (savory pancakes)</a>
-					<a href="">Mizutaki (chicken stew)</a>
-				</section>
-				<section class="contact-details">
-					<h2>Contact</h2>
-					<p>Yoko's Kitchen<br />
-						27 Redchurch Street<br />
-						Shoreditch<br />
-						London E2 7DP</p>
-				</section>
-			</aside>
-			<footer>
-				&copy; 2011 Yoko's Kitchen
-			</footer>
-		</div><!-- .wrapper -->
-	</body>
+<head>
+  <meta charset="UTF-8">
+  <meta content=
+  "Example showing a cooking site built using new HTML5 elements to describe the structure of the page."
+  name="description">
+  <meta content="Javier Lona" name="author">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Yoko's Kitchen</title>
+  <style type="text/css">
+		body {
+		  background-image: url("images/dark-wood.jpg");
+		  background-position: center;
+		  font-family: Georgia, Times, serif;
+		  line-height: 1.4em;
+		  margin: 0px;
+		}
+		.wrapper {
+		  width: 940px;
+		  margin: 20px auto 20px auto;
+		  border: 10px solid black;
+		  background-color: white;
+		}
+		header {
+		  height: 160px;
+		  background-image: url(images/header.jpg);
+		}
+		nav, footer {
+		  clear: both;
+		  color: white;
+		  background-color: gray;
+		  height: 25px;
+		}
+		nav ul {
+		  margin: 0px;
+		  padding: 5px 0px 5px 30px;
+		}
+		nav li {
+		  display: inline;
+		  margin-right: 40px;
+		}
+		nav li a {
+		  color: white;
+		}
+		nav li a:hover, nav li a.current {
+		  color: black;
+		}
+		article {
+		  clear: both;
+		  overflow: auto;
+		  width: 100%;
+		  float: left;
+		  width: 659px;
+		}
+		.article-headings {
+		  margin-top: 40px;
+		}
+		figure {
+		  float: left;
+		  width: 290px;
+		  height: 220px;
+		  padding: 5px;
+		  margin: 20px;
+		  border: 1px solid pink;
+		}
+		figcaption {
+		  font-size: 90%;
+		  text-align: left;
+		}
+		aside {
+		  width: 230px;
+		  float: left;
+		  padding-left: 20px;
+		  border-left: 1px dashed gray;
+		}
+		aside section a {
+		  display: block;
+		  padding: 10px;
+		  border-bottom: 1px solid #eeeeee;
+		}
+		aside section a:hover {
+		  color: #985d6a;
+		  background-color: lightgray;
+		}
+		a {
+		  color: #de6581;
+		  text-decoration: none;
+		}
+		h1, h2, h3 {
+		  font-weight: normal;
+		}
+		h2 {
+		  margin: 10px 0px 5px 0px;
+		  padding: 0px;
+		}
+		h3 {
+		  margin: 0px 0px 10px 0px;
+		  color: #de6581;
+		}
+		aside h2 {
+		  padding: 30px 0px 10px 0px;
+		  color: #de6581;
+		}
+		footer {
+		  font-size: 80%;
+		  padding: 7px 0px 0px 20px;
+		}
+		#skiptocontent a {
+		  position: absolute;
+		  top: 0px;
+		  left: 0px;
+		  background: transparent;
+		  color: transparent;
+		}
+		#skiptocontent a:focus {
+		  position: absolute;
+		  top: 0px;
+		  left: 0px;
+		  background: white;
+		  color: black;
+		}
+  </style><!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div id="skiptocontent">
+        <a href="#maincontent">Skip to main content</a>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a class="current" href="">home</a>
+          </li>
+          <li>
+            <a href="">classes</a>
+          </li>
+          <li>
+            <a href="">catering</a>
+          </li>
+          <li>
+            <a href="">about</a>
+          </li>
+          <li>
+            <a href="">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <article id="maincontent">
+      <figure>
+        <img alt="Teriyaki sauce" src="images/teriyaki.jpg">
+        <figcaption>
+          Teriyaki Sauce
+        </figcaption>
+      </figure>
+      <div class="article-headings">
+        <h2>Sauces Masterclass</h2>
+        <h3>One day workshop</h3>
+      </div>
+      <p>An intensive one-day course looking at how to create the most delicious sauces for use in
+      a range of Japanese cookery.</p>
+    </article>
+    <aside>
+      <section class="popular-recipes">
+        <h2>Popular Recipes</h2><a href="">Yakitori (grilled chicken)</a> <a href="">Tsukune
+        (minced chicken patties)</a> <a href="">Okonomiyaki (savory pancakes)</a> <a href=
+        "">Mizutaki (chicken stew)</a>
+      </section>
+      <section class="contact-details">
+        <h2>Contact</h2>
+        <p>Yoko's Kitchen<br>
+        27 Redchurch Street<br>
+        Shoreditch<br>
+        London E2 7DP</p>
+      </section>
+    </aside>
+    <footer>
+      &copy; 2011 Yoko's Kitchen
+    </footer>
+  </div><!-- .wrapper -->
+</body>
 </html>
 <!-- Resources / Notes
 HTML5 Layout https://www.w3schools.com/html/html5_semantic_elements.asp pg. 432
@@ -162,8 +195,8 @@ that relate to each other. For example, if there is one area in which there are 
  accessibility for readers and easier maintainability for authors.https://teamtreehouse.com/community/when-to-use-div-vs-section
 
 Classes and ID's pg. 183, 184
-CSS pg. 231 - 232, 236 inline CSS 
- 
+CSS pg. 231 - 232, 236 inline CSS
+
 html hex color identifier
 https://www.w3schools.com/colors/colors_picker.asp
 
