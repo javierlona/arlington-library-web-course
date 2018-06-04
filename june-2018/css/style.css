@@ -25,13 +25,7 @@ ul {
   padding-right: 20px;
   color: #ffffff;
 }
-.dark {
-  padding: 15px;
-  background: #35424a;
-  color: #ffffff;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+
 /* Header **/
 
 header {
@@ -147,13 +141,17 @@ table {
   border-spacing: 15px;
 }
 /* Sidebar */
-
-aside.sidebar {
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+}
+aside {
   float: right;
   width: 30%;
   margin-top: 10px;
 }
-aside.sidebar .quote input, aside.sidebar .quote textarea {
+aside .quote input, aside .quote textarea {
   width: 90%;
   padding: 5px;
 }
@@ -188,7 +186,7 @@ footer a {
 /* Media Queries */
 
 @media(max-width: 768px) {
-  .branding, nav, nav li, .newsletter h3, .newsletter form, .boxes .box, article.main-col, aside.sidebar, .featurette, .hours-of-operation {
+  .branding, nav, nav li, .newsletter h3, .newsletter form, .boxes .box, article.main-col, aside, .featurette, .hours-of-operation {
     float: none;
     text-align: center;
     width: 100%;
