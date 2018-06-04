@@ -7,7 +7,6 @@ body {
   background-color: #f4f4f4;
 }
 /* Global */
-
 .content-wrap {
   width: 80%;
   margin: auto;
@@ -140,6 +139,11 @@ table {
   padding: 10px;
   border-spacing: 15px;
 }
+/* Main-Article */
+article {
+  float: left;
+  width: 65%;
+}
 /* Sidebar */
 .dark {
   padding: 15px;
@@ -155,12 +159,7 @@ aside .quote input, aside .quote textarea {
   width: 90%;
   padding: 5px;
 }
-/* Main-col */
 
-article.main-col {
-  float: left;
-  width: 65%;
-}
 /* Services */
 
 .services li {
@@ -186,7 +185,7 @@ footer a {
 /* Media Queries */
 
 @media(max-width: 768px) {
-  .branding, nav, nav li, .newsletter h3, .newsletter form, .boxes .box, article.main-col, aside, .featurette, .hours-of-operation {
+  .branding, nav, nav li, .newsletter h3, .newsletter form, .boxes .box, article, aside, .featurette, .hours-of-operation {
     float: none;
     text-align: center;
     width: 100%;
