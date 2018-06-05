@@ -78,7 +78,7 @@ nav li {
 /* Newsletter */
 
 .newsletter {
-  padding: 15px;
+  padding: 15px 0;
   color: #ffffff;
   background: #35424a;
 }
@@ -102,8 +102,7 @@ nav li {
 .boxes .box {
   float: left;
   text-align: center;
-  width: 30%;
-  padding: 10px;
+  width: 33%;
 }
 .box img {
   width: 90px;
@@ -147,7 +146,7 @@ article {
 aside {
   float: right;
   width: 30%;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 15px;
   background: #35424a;
   color: #ffffff;
@@ -181,7 +180,7 @@ footer a {
 }
 /* Media Queries */
 
-@media(max-width: 768px) {
+@media(max-width: 830px) {
   .branding, nav, nav li, .newsletter h3, .newsletter form, .boxes .box, article, aside, .featurette, .hours-of-operation {
     float: none;
     text-align: center;
