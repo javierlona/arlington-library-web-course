@@ -6,7 +6,6 @@ body {
   margin: 0;
   background-color: #f4f4f4;
 }
-/* Global */
 .content-wrap {
   width: 80%;
   margin: auto;
@@ -24,9 +23,6 @@ ul {
   padding-right: 20px;
   color: #ffffff;
 }
-
-/* Header **/
-
 header {
   background: #35424a;
   color: #ffffff;
@@ -39,6 +35,7 @@ header .highlight, .current a {
   font-weight: bold;
 }
 .branding {
+  font-family: 'Krona One', sans-serif;
   float: left;
   margin: 0;
 }
@@ -59,8 +56,6 @@ nav li {
   display: inline;
   padding: 0 20px 0 20px;
 }
-/* Showcase */
-
 .showcase {
   min-height: 400px;
   background: url('../img/showcase.jpg') no-repeat 0 -400px;
@@ -75,8 +70,6 @@ nav li {
 .showcase p {
   font-size: 1.25rem;
 }
-/* Newsletter */
-
 .newsletter {
   padding: 15px 0;
   color: #ffffff;
@@ -94,8 +87,7 @@ nav li {
   height: 25px;
   width: 250px;
 }
-/* Boxes */
-
+/* Boxes on Homepage */
 .boxes {
   margin-top: 20px;
 }
@@ -108,13 +100,11 @@ nav li {
   width: 90px;
 }
 /* Second row of Homepage */
-
 .front-page-more-info {
   text-align: center;
   margin-top: 20px;
 }
 /* Video */
-
 .featurette {
   width: 50%;
   float: left;
@@ -123,8 +113,6 @@ nav li {
   height: 315px;
   width: 100%;
 }
-/* Hours of operation */
-
 .hours-of-operation {
   width: 50%;
   float: right;
@@ -138,7 +126,6 @@ table {
   padding: 10px;
   border-spacing: 15px;
 }
-/* Main-Article */
 article {
   float: left;
   width: 65%;
@@ -155,9 +142,6 @@ aside .quote input, aside .quote textarea {
   width: 90%;
   padding: 5px;
 }
-
-/* Services */
-
 .services li {
   list-style: none;
   padding: 20px;
@@ -179,7 +163,6 @@ footer a {
   color: #fff;
 }
 /* Media Queries */
-
 @media(max-width: 830px) {
   .branding, nav, nav li, .newsletter h3, .newsletter form, .boxes .box, article, aside, .featurette, .hours-of-operation {
     float: none;
