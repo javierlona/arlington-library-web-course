@@ -1,6 +1,6 @@
 <?php
 
-  $email = $_POST['users_email'];
+  $email = $_POST['newsletter_email'];
 
   echo "Thank you, ".$email." for supporting your local Arlington Public Library.";
 
