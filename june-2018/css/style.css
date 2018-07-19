@@ -15,8 +15,6 @@ th, td {
   background-color: #dddddd;
   width: 150px;
 }
-
-
 nav {
   float: right;
   margin-top: 10px;
@@ -34,12 +32,10 @@ nav li {
   display: inline;
   padding: 0 20px 0 20px;
 }
-
 ul {
   margin: 0;
   padding: 0;
 }
-
 header {
   background: #35424a;
   color: #ffffff;
@@ -47,7 +43,6 @@ header {
   min-height: 70px;
   border-bottom: #e8491d 3px solid;
 }
-
 footer {
   padding: 20px;
   margin-top: 20px;
@@ -61,24 +56,20 @@ footer a {
   text-decoration: none;
   color: #fff;
 }
-
 header .highlight, .current a {
   color: #e8491d;
   font-weight: bold;
 }
-
 .content-wrap {
   width: 80%;
   margin: 0 auto;
   overflow: hidden;
 }
-
 .branding {
   font-family: 'Krona One', sans-serif;
   float: left;
   margin: 0;
 }
-
 .showcase {
   min-height: 400px;
   background: url('../img/showcase.jpg') no-repeat 0 -400px;
@@ -110,7 +101,6 @@ header .highlight, .current a {
   height: 25px;
   width: 250px;
 }
-
 .button_1 {
   height: 38px;
   background: #e8491d;
@@ -119,7 +109,6 @@ header .highlight, .current a {
   padding-right: 20px;
   color: #ffffff;
 }
-
 /* Boxes on Homepage */
 .boxes {
   margin-top: 20px;
@@ -150,7 +139,6 @@ header .highlight, .current a {
   width: 50%;
   float: right;
 }
-
 article {
   float: left;
   width: 65%;
@@ -174,9 +162,8 @@ aside .quote input, aside .quote textarea {
   margin-bottom: 5px;
   background: #e6e6e6;
 }
-
 /* Media Queries */
-@media(max-width: 830px) {
+@media (max-width: 830px) {
   .branding, nav, nav li, .newsletter h3, .newsletter form, .boxes .box, article, aside, .featurette, .hours-of-operation {
     float: none;
     text-align: center;
